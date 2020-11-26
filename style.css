@@ -1,0 +1,135 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+}
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("images/p1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+
+  }
+  .btn-xl {
+  padding: 1.25rem 2.5rem;
+  border: 1.5px solid rgb(12, 30, 131);
+  font-size: x-large;
+}
+footer{
+    background-color: brown;
+    height: 60px;
+    text-align: center;
+    color: cornsilk;
+    padding: 20px;
+    position: bottom;
+    font-size:20px;
+}
+
+.loginbg{
+    background:url("images/p2.jpg");
+    height: 41em;
+}
+.loginbg_2{
+    /* background-color: honeydew; */
+    background: linear-gradient(to right, #27aca5 0%, #ffffff 100%);
+    height: 39em;
+    width: 40em;
+}
+.loghead{
+    color:rgb(31, 6, 99);
+    padding: 20px;
+    text-align: center;
+    font-size: 4em;
+}
+.form-group{
+    font-size: 20px;
+}
+.form-control{
+    background-color: rgb(243, 242, 160);
+    text-decoration: 10px solid white;
+}
+/* .submit{
+  margin-left: 7em;
+} */
+.navbar-nav{
+  width: 100%;
+  background-color: rgb(203, 211, 97);
+  text-align: justify;
+  align-self: auto;
+  text-decoration: none;
+}
+.nav-item{
+  padding: 0.5em;
+  font-size: x-large;
+
+}
+
+.taskicon{
+  align-content: center;
+
+}
+/* .fa-tasks{
+margin-left: 1em;
+} */
+
+.logout{
+float: right;
+}
+.mainbg{
+  background:url("images/p3.jpg");
+  background-repeat:no-repeat;
+
+  background-size: cover;
+  /* height: 100%;
+  width: 100%; */
+}
+.fa,.fas{
+  font-size: 0.8em;
+  padding-left: 1.2em;
+}
+
+.todobg{
+  background:url("images/bg2.jpg");
+  background-repeat:no-repeat;
+  background-color: rgb(64, 226, 231);
+ 
+  background-size: cover;
+}
+.buttontodo{
+  margin: 0.8em;
+  padding: 0.5em;
+  font-size: xx-large;
+  
+}
+#table1{
+  align-content: center;
+  text-align: justify;
+  background-color: blanchedalmond;
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.1em;
+
+}
+.heading{
+  text-align: center;
+  font-size: xx-large;
+}
